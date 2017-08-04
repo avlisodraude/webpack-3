@@ -1,10 +1,12 @@
 # webpack3
 Webpack 3 step by step set up along with babel and ReactJs.
 
-## Purpose of this repo
-To set up Webpack 3 along with Babel and React in a step by step fashion. 
+## Setting up Babel
 
-**Motivation:**
-There are a ton of good online tutorials and guides on how to configure Webpack but unfortunately most of them focus on specific Technology Stacks  which leave us with a final hugue package.json and Webpack.config file which makes the idea of picking up the specific tasks that we want quite a challenge.
 
-In this repo I will tackle one task at a time and have different branches for each one with a final Master branch joining all of them. So ideally you should be able to pick up only the functionality you need skipping unnecessary code to run via Webpack into your project. 
+**Babel config:**
+
+This recipe enables you to set up the babel compiler to use the latest JS features.
+Instead of using babel-preset-2015/6/7 I use babel-preset-env which allows me to use a single module that takes care of any feature used for development.
+For a more detailed explanation follow this [excelent post](http://2ality.com/2017/02/babel-preset-env.html).
+With this configuration it is not necessary to include a .babelrc file since that can be added directly to the babel loader configuration and if any file named .babelrc is already there the babelrc:false setting will diabled it.

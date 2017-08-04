@@ -26,6 +26,9 @@
   },
   "homepage": "https://github.com/avlisodraude/webpack-3#readme",
   "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
     "webpack": "^3.4.1"
   }
 }
