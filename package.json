@@ -1,0 +1,31 @@
+{
+  "name": "webpack-3",
+  "version": "1.0.0",
+  "description": "Webpack 3 step by step tutorial with Babel and React configuration",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avlisodraude/webpack-3.git"
+  },
+  "keywords": [
+    "webpack",
+    "webpack",
+    "3",
+    "react",
+    "reactjs",
+    "babel",
+    "sass"
+  ],
+  "author": "Eduardo Silva Navarrete",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/avlisodraude/webpack-3/issues"
+  },
+  "homepage": "https://github.com/avlisodraude/webpack-3#readme",
+  "devDependencies": {
+    "webpack": "^3.4.1"
+  }
+}
