@@ -19,3 +19,8 @@ On the Webpack.config file, within the module.rules objects include:
  }
  
  Note: The order is importsant since webpack run the loader from right to left.
+npm i --save-dev extract-text-webpack-plugin.
+
+To extract CSS to an external css file install extract-text-webpack-plugin and adjust the configuration as stated in:
+
+[extract-text-webpack-plugin](https://github.com/webpack-contrib/extract-text-webpack-plugin#extracting-sass-or-less)
